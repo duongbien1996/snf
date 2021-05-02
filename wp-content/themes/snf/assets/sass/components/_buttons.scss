@@ -1,0 +1,140 @@
+
+ .btn {
+	border-radius: 8px;
+}
+.pd-12-16 {
+    padding: 12px 16px;
+}
+.pd-12-30 {
+    padding: 12px 30px;
+}
+.pd-12-100 {
+    padding: 12px 100px;
+}
+.pd-8-40 {
+    padding: 8px 40px;
+}
+
+.btn-red-e92528 {
+    color: $c-white;
+    background: $c-red-e92528;
+    position: relative;
+    z-index: 1;
+    &:hover {
+        color: $c-white;
+        background: $c-red-e92528;
+    }
+}
+
+.btn-outline-red-e92528 {
+    color: $c-red-e92528;    
+    border: 1.5px solid $c-red-e92528;
+    &:hover {
+		color: $c-white;
+        background: $c-red-e92528;
+	}
+}
+
+.btn-red-eB5757 {
+    color: $c-white;
+    background: $c-red-eB5757;
+    position: relative;
+    z-index: 1;
+    &:hover {
+        color: $c-white;
+        background: $c-red-eB5757;
+    }
+}
+
+.btn-outline-red-eB5757 {
+    color: $c-red-eB5757;    
+    border: 1.5px solid $c-red-eB5757;
+    &:hover {
+		color: $c-white;
+        background: $c-red-eB5757;
+	}
+}
+
+
+.btn-red-e61208 {
+    color: $c-white;
+    background: $c-red-e61208;
+    position: relative;
+    z-index: 1;
+    &:hover {
+        color: $c-white;
+        background: $c-red-e61208;
+    }
+}
+
+.btn-outline-red-e61208 {
+    color: $c-red-e61208;    
+    border: 1.5px solid $c-red-e61208;
+    &:hover {
+		color: $c-white;
+        background: $c-red-e61208;
+	}
+}
+
+.btn-red-990C05 {
+    color: $c-white;
+    background: $c-red-990C05;
+    position: relative;
+    z-index: 1;
+    &:hover {
+        color: $c-white;
+        background: $c-red-990C05;
+    }
+}
+
+.btn-outline-red-990C05 {
+    color: $c-red-990C05;    
+    border: 1.5px solid $c-red-990C05;
+    &:hover {
+		color: $c-white;
+        background: $c-red-990C05;
+	}
+}
+
+
+.btn-silver {
+    color: $c-white;
+    background: $c-silver;
+    position: relative;
+    z-index: 1;
+    &:hover {
+        color: $c-white;
+        background: $c-silver;
+    }
+}
+
+.btn-outline-silver {
+    color: $c-silver;    
+    border: 1.5px solid $c-silver;
+    &:hover {
+		color: $c-white;
+        background: $c-silver;
+	}
+}
+
+
+
+.btn-blue {
+    color: $c-white;
+    background: $c-blue;
+    position: relative;
+    z-index: 1;
+    &:hover {
+        color: $c-white;
+        background: $c-blue;
+    }
+}
+
+.btn-outline-blue {
+    color: $c-blue;    
+    border: 1.5px solid $c-blue;
+    &:hover {
+		color: $c-white;
+        background: $c-blue;
+	}
+}

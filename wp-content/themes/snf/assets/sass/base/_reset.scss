@@ -1,0 +1,57 @@
+
+// Cấu hình scroll body
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+    background: #a4b0be;
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: $c-silver;
+}
+body::-webkit-scrollbar-thumb:window-inactive {
+    background: #a4b0be;
+}
+
+// Cấu hình font
+body {
+    font-family: 'Manrope' !important;
+    color: $c-black !important;
+    background-color: #fff !important;
+    @media (min-width: 1200px) {
+        .container {
+          max-width: 1200px;
+        }
+      }
+}
+html {
+    font-size: 100%;
+}
+
+// clear
+textarea:focus, input:focus,.btn:focus,.btn.focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+// reset thuộc tính thẻ a
+a {
+    text-decoration: none !important;
+}
+a, .text-link {
+    color: $c-black;
+    text-decoration: none;
+    background: transparent;
+}
+
+*:focus {
+    outline: none !important;
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}

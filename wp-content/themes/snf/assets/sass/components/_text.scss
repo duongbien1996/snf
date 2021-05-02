@@ -1,0 +1,71 @@
+
+/* 
+    @ website : snf
+    @ version : 1.0
+    @ Deployment date : 14/04/2021
+    @ Team : My team
+*/
+
+//----------class for text color
+.c-blue {color: $c-blue};
+.c-red-e92528 {color: $c-red-e92528};
+.c-red-eB5757 {color: $c-red-eB5757}
+.c-red-e61208 {color: $c-red-e61208};
+.c-red-990C05 {color: $c-red-990C05};
+.c-yellow {color: $c-yellow};
+.c-aqua {color: $c-aqua};
+.c-whiteblue {color: $c-whiteblue};
+.c-black {color: $c-black};
+.c-darkgray {color: $c-darkgray};
+.c-silver {color: $c-silver};
+.c-lightgray {color: $c-lightgray};
+.c-smoke {color: $c-smoke};
+.c-white {color: $c-white};
+
+//----------class for weight
+
+
+//----------class for font size
+.txt-10-12 {
+    font-size: $fs-10;
+    line-height: $line-h-12;
+}
+.txt-12-16 {
+    font-size: $fs-12;
+    line-height: $line-h-16;
+}
+.txt-14-20 {
+    font-size: $fs-14;
+    line-height: $line-h-20;
+}
+
+.txt-16-24 {
+    font-size: $fs-16;
+    line-height: $line-h-24;
+}
+
+.hd-5 {
+    font-size: $fs-14;
+    line-height: $line-h-20;
+    font-weight: 600;
+}
+.hd-4 {
+    font-size: $fs-16;
+    line-height: $line-h-24;
+    font-weight: 600;
+}
+.hd-3{
+    font-size: $fs-20;
+    line-height: $line-h-28;
+    font-weight: bold;
+}
+.hd-2{
+    font-size: $fs-24;
+    line-height: $line-h-32;
+    font-weight: bold;
+}
+.hd-1{
+    font-size: $fs-32;
+    line-height: $line-h-40;
+    font-weight: bold;
+}

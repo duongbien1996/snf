@@ -1,0 +1,61 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+// Sử dụng các biến thể hiện cho font-size
+$fs-10: 10px;
+$fs-12: 12px;
+$fs-14: 14px;
+$fs-16: 16px;
+$fs-18: 18px;
+$fs-20: 20px;
+$fs-22: 22px;
+$fs-24: 24px;
+$fs-32: 32px;
+
+// Sử dụng các biến thể hiện cho font-weight
+//-----font-weight-------------
+
+$font-w-800: 800;
+$font-w-600: 600;
+
+// Sử dụng các biến thể hiện cho line-height
+//-------line-height-----------
+$line-h-10: 10px;
+$line-h-12: 12px;
+$line-h-14: 14px;
+$line-h-16: 16px;
+$line-h-18: 18px;
+$line-h-20: 20px;
+$line-h-22: 22px;
+$line-h-24: 24px;
+$line-h-26: 26px;
+$line-h-28: 28px;
+$line-h-30: 30px;
+$line-h-32: 32px;
+$line-h-40: 40px;
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1200px !default;
+
+//---------- Colors ----------
+
+// c : Primary colors (Brand);
+// g : Gradient colors;
+// s : Semantic colors;
+// n : Neutral colors;
+
+$c-blue: #1D4488;
+$c-red-e92528: #E92528;
+$c-red-eB5757: #EB5757;
+$c-red-e61208: #E61208;
+$c-red-990C05: #990C05;
+$c-yellow: #FFE187;
+$c-aqua: #119E7B;
+$c-whiteblue: #F0F7FD;
+$c-black:#1E1E1E;
+$c-darkgray: #555555;
+$c-silver: #C0C0C0;
+$c-lightgray: #D8D8D8;
+$c-smoke: #FAFAFA;
+$c-white:#FFFFFF;

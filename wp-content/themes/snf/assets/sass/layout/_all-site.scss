@@ -1,0 +1,57 @@
+/* 
+    @ Sử dụng cho các class css dùng chung cho toàn trang
+    @ 
+    @ update date : 14/04/2021
+    @ By : duongbien (duongbien1996@gmail.com)
+*/
+
+.relative {
+    position: relative;
+}
+.inline-block {
+    display: inline-block;
+}
+
+.border-bottom-3line {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.border-bottom-3line-2 {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.border-bottom-1px {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 2px;
+}
+.no-padding {
+    padding: 0 !important;
+}
+.heading {
+    display: block;
+    float: left;
+    width: 100%;
+    text-align: left !important;
+    position: relative;
+}
+.heading h2 {
+    display: block;
+    background: #fff;
+    position: relative;
+    z-index: 999;
+    padding: 0;
+    font-size: 38px !important;
+    font-family: "Prata",serif;
+    text-transform: none !important;
+    font-weight: 400 !important;
+    @include mobile {
+        font-size: 32px !important;
+    }
+}
+.heading h2 a {
+    text-transform: uppercase;
+}
+
+.icon-control-play {
+    font-size: 12px;
+}

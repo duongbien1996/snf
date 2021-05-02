@@ -1,0 +1,63 @@
+
+
+//media responsive
+$mobile-smail-width:320px;
+$mobile-width: 480px;
+$tablet-width: 768px;
+$desktop-width: 1024px;
+$desktop-width-pro:1366px;
+
+$breakpoints: (
+	mobile-smail : 320px, 
+	mobile-width: 480px,
+	tablet-width: 768px,
+	desktop-width : 1024px, 
+	desktop-width-pro: 1366px
+);
+
+/* Responsive cho 3 màn hình chính*/
+@mixin mobile-samil { @media (min-width: #{$mobile-smail-width}) and (max-width: #{375px - 1px}) {     
+    @content;   
+} 
+}
+
+@mixin mobile { @media (max-width: #{$mobile-width - 1px}) {     
+    @content;   
+} 
+}  
+
+@mixin tablet { @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {       
+    @content;   
+} 
+}  
+@mixin tablet-pro { @media (min-width: #{$desktop-width}) and (max-width: 1366px) {       
+    @content;   
+} 
+} 
+
+@mixin desktop { @media (min-width: #{$desktop-width-pro}) {     
+    @content;  
+} 
+}
+
+//  mixin to print out media queries (based on map keys passed) 
+@mixin media($keys...){
+	@each $key in $keys { 
+	  @media (min-width: map-get($breakpoints, $key)){
+		@content
+	  } 
+	}
+}
+
+@mixin display-limit-2($line-clamp) {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: $line-clamp;
+	height: auto;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+@mixin cus-border($border) {
+	border: 1px solid #d8d8d8;
+	border-radius: $border;
+}
